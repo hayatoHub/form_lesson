@@ -36,13 +36,13 @@
                 <p class="label-text">名字
                   <span class="alert">※</span>
                 </p>
-                <input class="input-area" type="text" name="last-name" required>
+                <input class="input-area input-init" type="text" name="last-name" required>
               </div>
               <div class="name-box is-halfWidth">
                 <p class="label-text">名前
                   <span class="alert">※</span>
                 </p>
-                <input class="input-area" type="text" name="first-name" required>
+                <input class="input-area input-init" type="text" name="first-name" required>
               </div>
             </div>
             <!-- 性別 -->
@@ -67,7 +67,7 @@
             <div class="row is-halfWidth from">
               <p class="label-text">出身</p>
               <div class="from-area">
-                <select class="from-input input-area input-init" name="pull-down">
+                <select class="from-input input-area input-init" name="from">
                   <option value="Tokyo">東京</option>
                   <option value="Chiba">千葉</option>
                   <option value="Saitama">埼玉</option>
@@ -78,22 +78,22 @@
             <!-- Eメール -->
             <div class="row email">
               <p class="label-text">Eメール<span class="alert">※</span></p>
-              <input type="email" class="input-init input-area is-fullWidth" placeholder="ex) hoge@example.com" required>
+              <input type="email" name="email" class="input-init input-area is-fullWidth" placeholder="ex) hoge@example.com" required>
             </div>
             <!-- 電話番号 -->
             <div class="row phone">
               <p class="label-text">電話番号</p>
-              <input type="phone" class="input-init input-area is-fullWidth" placeholder="ex) 09012345678">
+              <input type="tel" name="tel" class="input-init input-area is-fullWidth" placeholder="ex) 09012345678">
             </div>
             <!-- パスワード -->
             <div class="row password">
               <p class="label-text">パスワード<span class="alert">※</span></p>
-              <input type="password" class="input-init input-area is-fullWidth">
+              <input type="password" name="password" class="input-init input-area is-fullWidth" required>
             </div>
             <!-- パスワード確認用 -->
             <div class="row password">
               <p class="label-text">パスワード(確認用)<span class="alert">※</span></p>
-              <input type="password" class="input-init input-area is-fullWidth">
+              <input type="password" name="password-confirm" class="input-init input-area is-fullWidth" required>
             </div>
             <!-- 希望コース -->
             <div class="row course">
